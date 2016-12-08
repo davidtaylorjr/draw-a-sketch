@@ -1,12 +1,9 @@
 $(document).ready(function() {
- $(function() {
-   for (var x = 0; x < 16; x++) {
-    for (var y = 0; y < 16; y++) {
-        $("<div>").addClass("unit").appendTo('#container');
-    }
- }
-});
- $(".unit").hover() {
-    $(this).css("background-color", "black");
+  for (var x = 0; x < 16 * 16; x++) {
+    $('<div class="unit">').appendTo('#container');
+  }
+
+  $(".unit").mouseenter(function() {
+    $(this).addClass('black');
   });
- });
+});
