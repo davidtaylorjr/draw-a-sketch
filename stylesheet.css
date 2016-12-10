@@ -1,15 +1,28 @@
-#container {
-  background-color: lightblue;
-  height: 512px;
-  width: 512px;
+.container {
+  padding: 5px;
+  width: 500px;
+    height: 400px;
+    background-color: none;
+    overflow: hidden;
+    margin: auto;
+    position: relative;
+    top: 20px;
 }
-.unit {
-  background-color: white;
-  height: 30px;
-  width: 30px;
-  margin: 1px;
+.box {
+  border: 1px solid lightblue;
+  box-sizing: border-box;
+  margin: 0px;
   float: left;
+  background: white;
+  position: relative;
 }
-.unit.black {
-  background-color: #000;
+
+.clear {
+    position: relative;
+    margin: auto;
+    text-align: center;
+}
+
+body {
+  background: white;
 }
