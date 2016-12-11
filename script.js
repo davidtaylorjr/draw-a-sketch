@@ -5,7 +5,7 @@ $(function(){
 
     //Draw .box divs
     function drawBoxes(){
-        var gridWidthInBoxes = prompt("Width of grid in boxes?");
+        var gridWidthInBoxes = prompt("How large do you want each side to be? Choose 1-64");
         //Remove boxes and redraw
         $('.box').remove();
         for(var i = 0; i < (gridWidthInBoxes * gridWidthInBoxes) ; i++){
