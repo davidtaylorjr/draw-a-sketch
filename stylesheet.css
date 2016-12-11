@@ -1,6 +1,28 @@
+.box {
+    margin:0;
+    border:1px solid lightblue;
+    box-sizing:border-box;
+    float:left;
+}
+
+.container{
+    padding:5px;
+}
+
+
+/*=================
+General
+=================*/
+
+body {
+    background: white;
+}
+
+/*=================
+Sketchpad Holder
+=================*/
 .container {
-  padding: 5px;
-  width: 500px;
+    width: 500px;
     height: 400px;
     background-color: none;
     overflow: hidden;
@@ -8,21 +30,15 @@
     position: relative;
     top: 20px;
 }
+
 .box {
-  border: 1px solid lightblue;
-  box-sizing: border-box;
-  margin: 0px;
-  float: left;
-  background: white;
-  position: relative;
+    background: white;
+    position: relative;
 }
+
 
 .clear {
     position: relative;
     margin: auto;
     text-align: center;
-}
-
-body {
-  background: white;
 }
