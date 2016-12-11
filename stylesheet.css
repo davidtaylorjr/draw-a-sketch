@@ -10,7 +10,7 @@
 
 .box {
     margin:0;
-    border:1px solid lightblue;
+    border:1px white;
     box-sizing:border-box;
     float:left;
 }
@@ -25,7 +25,7 @@ General
 =================*/
 
 body {
-    background: white;
+    background: salmon;
 }
 
 /*=================
@@ -39,10 +39,13 @@ Sketchpad Holder
     margin: auto;
     position: relative;
     top: 20px;
+    border: 3px;
+    border-color: black;
+    border-style: solid;
 }
 
 .box {
-    background: white;
+    background: lightgray;
     position: relative;
 }
 
@@ -55,4 +58,4 @@ Sketchpad Holder
 
 .box.black {
   background-color: #000;
-} 
+}
