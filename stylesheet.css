@@ -1,7 +1,10 @@
 .title {
   font-family: 'Pacifico', cursive;
     text-align: center;
+    float: left;
     font-size: 25px;
+    position: absolute;
+    margin-top: 12%;
 }
 
 .grid_controls {
@@ -26,7 +29,7 @@
 }
 
 .container{
-    padding:5px;
+    padding:1px;
 }
 
 
