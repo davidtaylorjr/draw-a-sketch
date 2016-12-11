@@ -30,7 +30,7 @@ $(function(){
 
 
     //Hover to draw boxes
-    $(".box").mousenter(function() {
+    $(".box").mouseenter(function() {
       $(this).addClass('black');
     });
 
