@@ -24,14 +24,14 @@ $(function(){
 
     //Button event handler
     $("button").on('click', function(){
-  		drawBoxes();
+  		location.reload();
     });
 
 
 
     //Hover to draw boxes
-    $(".box").mouseenter(function() {
-      $(this).addClass('black');
-    });
+    $(".container").on('mouseenter', '.box', function() {
+  $(this).addClass('black');
+});
 
 });
