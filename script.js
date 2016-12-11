@@ -30,8 +30,8 @@ $(function(){
 
 
     //Hover to draw boxes
-    $(".box").mouseenter(function() {
-      $(this).addClass('black');
-    });
+    $(".container").on('mouseenter', '.box', function() {
+  $(this).addClass('black');
+});
 
 });
