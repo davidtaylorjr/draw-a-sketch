@@ -27,11 +27,11 @@ $(function(){
   		drawBoxes();
     });
 
-    
-    /*
+
+
     //Hover to draw boxes
     $(".box").mousenter(function() {
       $(this).addClass('black');
-    } */
+    });
 
 })();
