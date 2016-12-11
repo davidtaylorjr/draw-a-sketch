@@ -24,7 +24,7 @@ $(function(){
 
     //Button event handler
     $("button").on('click', function(){
-  		drawBoxes();
+  		location.reload();
     });
 
 
